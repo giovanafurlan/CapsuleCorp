@@ -4,26 +4,10 @@
 	box-sizing: border-box;
 }
 
-body{
-	font-family: 'Montserrat', sans-serif;
-}
-
-main {
-    width: 100%;  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: black;
-    align-items: center;
-    padding: 15px;
-    
-}
-
 nav img {
+  width: 65px;
+  height: 100px;
   margin-left: 20px;
-width: 65px;
-height: 90px;
-margin-top: 10px;
 }
 
 nav{
@@ -31,7 +15,6 @@ nav{
   flex-direction: row;
   align-items: center;
   background-color: black;
-  height: 80px;
 }
 
 nav ul{
@@ -39,7 +22,7 @@ nav ul{
   flex-direction: row;
   align-items: center;
   list-style: none;
-  padding: 0;
+  padding: 10px;
   width: 100%;
 }
 
@@ -58,6 +41,20 @@ nav ul li a{
 
 nav ul li a:hover{
   color: #71068f;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 100%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    padding: 15px;
 }
 
 .sessao {
@@ -92,10 +89,10 @@ nav ul li a:hover{
 
     .shock h3{
     margin-top: 50px;
-    -webkit-text-stroke-width: 0.3px;
-    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #71068f;
     font-size: 2em; 
-    color: #71068f;
+    color: black;
     }
 
   .formulario {
@@ -107,7 +104,7 @@ nav ul li a:hover{
     font-size: 30px;
     color: white;
     background: rgb(156,58,180);
-    background: linear-gradient(90deg, rgba(156,58,180,1) 0%, rgb(162, 109, 187) 50%, rgba(66,13,87,1) 100%);
+    background: linear-gradient(90deg, rgba(156,58,180,1) 0%, rgb(140, 102, 158) 50%, rgba(66,13,87,1) 100%);
     border-radius: 10px;
     line-height: 1.2;
     text-align: center;
@@ -189,7 +186,7 @@ nav ul li a:hover{
     background: #333333;
   }
 
-@media (min-width: 400px) and (max-width: 800px){
-  .sessao {width: 490px;
-  height: 1200px;}
-}
+  @media (min-width: 400px) and (max-width: 800px){
+    .sessao {width: 490px;
+    height: 1200px;}
+  }

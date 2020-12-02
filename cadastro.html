@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <nav>
+        <img src="img/logo.png" id="logo">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="login.html">FAÇA PARTE</a></li>
+            <li><a href="apoie.html">APOIE ESSA CAUSA</a></li>
+        </ul>
+    </nav>
+    <main class="inicio">
+        <div class="sessao">
+            <div class="shock">
+                <a href="login.html">
+                    <p>VOLTAR</p>
+                </a>
+            </div>
+            <form class="formulario" method="post" action="validacao_cadastro.php">
+                <h3>Cadastro</h3>
+                <br><br>
+                <div class="controle">
+                    <input class="preencher" type="email" name="invest_email" placeholder="Email" required>
+                    <br><br>
+                    <input class="preencher" type="text" name="invest_cnpj" placeholder="CNPJ" required>
+                    <br><br>
+                    <input class="preencher" type="password" name="invest_senha" placeholder="Senha" required>
+                </div>
+                <div class="botao">
+                    <a href="login.html"><input type="submit" class="btn" name="btn" value="Cadastrar"></a>
+                </div>
+            </form>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>

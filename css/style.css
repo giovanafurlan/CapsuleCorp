@@ -2,7 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #323232;
     border: none;
 }
@@ -22,7 +22,7 @@ a{
 
 body{
     padding-top: 5vh;
-    background-image: url('../img/orange.jpg');
+    background-image: url('../img.jpg');
     background-size: cover;
     background-position-y: -150px;
 }
@@ -76,11 +76,11 @@ input{
 }
 
 input:focus{
-    border-color: yellow;
+    border-color: 71068f;
 }
 
 input[type="submit"]{
-    background-color: yellow;
+    background-color: 71068f;
     color: #FFF;
     border: none;
     border-radius: 20px;

@@ -1,60 +1,67 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
 body{
-    font-family: Nunito, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #1c1c1c;
 }
 
 h1,h2,h3{
-    font-family: Asap, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #000000;
 }
 
 .botao{
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 10px 30px;
-    background-color: #FFC312;
+    background-color: #71068f;
     font-size: .9rem;
     border-radius: 3px;
 }
 
 /* Navegação */
-
-nav{
+nav img {
+    width: 65px;
+    height: 100px;
+    margin-left: 20px;
+  }
+  
+  nav{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     background-color: black;
-}
-
-nav > a {
-    text-decoration: none;
-    color: #FFC312;
-    font-weight: 800;
-    font-size: 32px;
-    font-family: Yellowtail, serif;
-}
-
-nav ul{
+  }
+  
+  nav ul{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     list-style: none;
     padding: 0;
     width: 100%;
-}
-
-nav ul li {
+  }
+  
+  nav ul li {
     text-align: center;
     width: 100%;
-}
-
-nav ul li a{
+  }
+  
+  nav ul li a{
     display: inline-block;
     padding: 10px 0;
     width: 100%;
     text-decoration: none;
     color: #ffffff;
-}
+  }
+  
+  nav ul li a:hover{
+    color: #71068f;
+  }
 
 /* Cabeçalho  */
 
@@ -62,18 +69,21 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("../img-2/landscape-1844230_1280.png");
+    background-image: url("../img/fundo3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color:  black;
+    color:  white;
     text-align: center;
     padding: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 
 header h1{
-    color: #FFC312;
+    color: #820282;
+    background-size: 500px;
+    border-radius: 10px;
 }
 
 header p{
@@ -91,7 +101,7 @@ header p{
 }
 
 #sobre h2{
-    color: #f9ca24;
+    color: #71068f;
 }
 
 #sobre p{
@@ -100,8 +110,9 @@ header p{
 }
 
 #sobre .botao{
-    background-color: #f9ca24;
-    color: #1c1c1c;
+    background-color: #71068f;
+    color: white;
+    font-weight: bold;
 }
 
 #serviços {
@@ -111,12 +122,20 @@ header p{
     padding: 30px;
 }
 
+#objetivos{
+    text-align: center;
+    margin-top: 50px;
+}
+
 #serviços div{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 30px;
+}
+
+#serviços h3{
+    color: #71068f;
 }
 
 /* fotos */
@@ -130,6 +149,7 @@ header p{
 
 #fotos h2{
     margin-bottom: 20px;
+    color: #71068f;
 }
 
 #fotos img {
@@ -145,7 +165,7 @@ header p{
 }
 
 #contato h2 {
-    color: #000000;
+    color: #71068f;
 }
 
 /* Rodapé */
@@ -159,7 +179,7 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: #f9ca24;
+    color: #71068f;
 }
 
 @media screen and (min-width: 768px){
